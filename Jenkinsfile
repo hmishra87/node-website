@@ -19,7 +19,7 @@ pipeline {
 
                 docker rm -f node-web || true
 
-                docker run -d --name node-web -p 3000:3000 node-website
+                docker run -d --name node-web -p 8000:3000 node-website
                 '''
             }
         }
