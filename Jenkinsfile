@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/hmishra87/jenkins-cicd-node-website.git'
+                git 'https://github.com/hmishra87/node-website.git'
             }
         }
 
